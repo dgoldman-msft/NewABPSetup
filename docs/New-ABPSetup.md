@@ -14,7 +14,7 @@ Create a full Address Book Policy
 
 ```
 New-ABPSetup [-Name] <String> [-CustomAttribute] <String> [-CustomAttributeValue] <String>
- [-EnableTransportConfig] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-EnableTransportConfig <Boolean>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -80,13 +80,13 @@ Accept wildcard characters: False
 Switch to indicated that EnableTransportConfig needs to be set
 
 ```yaml
-Type: SwitchParameter
+Type: Boolean
 Parameter Sets: (All)
 Aliases:
 
 Required: False
 Position: Named
-Default value: False
+Default value: True
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

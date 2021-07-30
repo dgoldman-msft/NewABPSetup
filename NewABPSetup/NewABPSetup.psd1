@@ -66,13 +66,13 @@
 		PSData = @{
 
 			# Tags applied to this module. These help with module discovery in online galleries.
-			# Tags = @()
+			Tags = @("O365", "Offline Address Book", "Address Book Policy", "ABP")
 
 			# A URL to the license for this module.
-			# LicenseUri = ''
+			# LicenseUri = 'https://github.com/dgoldman-msft/NewABPSetup/blob/main/LICENSE'
 
 			# A URL to the main website for this project.
-			# ProjectUri = ''
+			ProjectUri = 'https://github.com/dgoldman-msft/NewABPSetup'
 
 			# A URL to an icon representing this module.
 			# IconUri = ''
