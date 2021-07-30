@@ -1,0 +1,21 @@
+﻿TOPIC
+	about_NewABPSetup
+	
+SHORT DESCRIPTION
+	Moudle for creating and removing Address Book Policies
+	
+LONG DESCRIPTION
+	This will create a Address Book Policy, Global Address List, Address List, Room List and link them together as well as stamp all of the mailboxes required. It has the ability to remove them if needed.
+
+EXAMPLE
+	PS C:\> New-ABPSetup -Name YourValue -CustomAttribute CustomAttribute1 -CustomAttributeValue YourValue
+
+	This will create a new Address Book Policy with YourValue as the name for each of the Address Lists, Books, Room, and Policies
+
+EXAMPLE
+	PS C:\> Remove-ABP -Name YourValue
+
+	This will remove the Address Lists, Books, Room, and Policy 
+
+KEYWORDS
+	NewABPSetup

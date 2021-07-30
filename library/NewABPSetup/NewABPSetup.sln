@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F7FE5DF5-559D-4919-B7EA-782D58C9F357}") = "NewABPSetup", "NewABPSetup\NewABPSetup.csproj", "{E68C5434-6261-4275-8F2F-CE8A180B0084}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E68C5434-6261-4275-8F2F-CE8A180B0084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68C5434-6261-4275-8F2F-CE8A180B0084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68C5434-6261-4275-8F2F-CE8A180B0084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68C5434-6261-4275-8F2F-CE8A180B0084}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8326D85A-53CC-4F07-B140-6B016692813C}
+	EndGlobalSection
+EndGlobal
