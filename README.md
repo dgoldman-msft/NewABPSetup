@@ -2,10 +2,28 @@
 
 ## To get started with this module
 
-> 1. Open PowerShell as an Administrator
-> 2. Run Install-Module -Name NewABPSetup
-> 3. Run Import-Module -Name NewABPSetup
-> 4. Run `New-ABPSetup -Name YourValue -CustomAttribute CustomAttribute1 -CustomAttributeValue YourValue`
+1. Open PowerShell as an Administrator
+2. Inside your PowerShell module directory create a directory called NewABPSetup
+3. Inside your NewABPSetup directory create a directory called 1.0.0
+4. Copy the contents of the Github downloaded zipfile's directory NewABPSetup/NewABPSetup to the 1.0.0 folder
+
+<b><span style="color:red">NOTE:</b></span> The folder structure should look like below:
+
+* C:\Users\UserName\Documents\WindowsPowerShell\Modules\NewAPBSetup
+  *   1.0.0
+      *   bin
+      *   en
+      *   functions
+      *   internal
+      *   tests
+      *   xml
+      *   changelog.md
+      *   NewABPSetup.psd1
+      *   NewABPSetup.psm1
+      *   readme.md 
+
+5. Run Import-Module -Name NewABPSetup
+6. Run `New-ABPSetup -Name YourValue -CustomAttribute CustomAttribute1 -CustomAttributeValue YourValue`
 
 <b><span style="color:red">NOTE:</b></span> The CustomAttribute parameter is a list that you can select from with the Tab key. This allows for you to match which custom attribute has been stamped on your Exchange objects.
 
