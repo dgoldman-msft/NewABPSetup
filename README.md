@@ -3,9 +3,10 @@
 ## To get started with this module
 
 1. Open PowerShell as an Administrator
-2. Inside your PowerShell module directory create a directory called NewABPSetup
-3. Inside your NewABPSetup directory create a directory called 1.0.0
-4. Copy the contents of the Github downloaded zipfile's directory NewABPSetup/NewABPSetup to the 1.0.0 folder
+2. Set-ExecutionPolicy -ExecutionPolicy Bypass
+3. Inside your PowerShell module directory create a directory called NewABPSetup
+4. Inside your NewABPSetup directory create a directory called 1.0.0
+5. Copy the contents of the Github downloaded zipfile's directory NewABPSetup/NewABPSetup to the 1.0.0 folder
 
 <b><span style="color:red">NOTE:</b></span> The folder structure should look like below:
 
