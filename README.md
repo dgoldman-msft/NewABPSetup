@@ -1,4 +1,4 @@
-﻿# NewABPSetup Module (AIPScannerConfig)
+﻿# NewABPSetup Module
 
 ## To get started with this module
 
