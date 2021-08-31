@@ -1,11 +1,15 @@
-﻿# NewABPSetup Module (AIPScannerConfig)
+﻿# NewABPSetup Module
 
 ## To get started with this module
 
 1. Open PowerShell as an Administrator
-2. Inside your PowerShell module directory create a directory called NewABPSetup
-3. Inside your NewABPSetup directory create a directory called 1.0.0
-4. Copy the contents of the Github downloaded zipfile's directory NewABPSetup/NewABPSetup to the 1.0.0 folder
+2. Set-ExecutionPolicy -ExecutionPolicy Bypass
+3. Install-Module PSFramework
+4. Open Windows Explorer and navigate to C:\Users\<username>\Documents\WindowsPowerShell
+5. If no modules directoy exists create a new directory called 'Modules'
+6. Inside the module directory create a directory called NewABPSetup
+7. Inside the NewABPSetup directory create a directory called 1.0.0
+8. Copy the contents of the Github downloaded zipfile's directory NewABPSetup/NewABPSetup to the 1.0.0 folder
 
 <b><span style="color:red">NOTE:</b></span> The folder structure should look like below:
 
@@ -22,8 +26,10 @@
       *   NewABPSetup.psm1
       *   readme.md 
 
-5. Run Import-Module -Name NewABPSetup
-6. Run `New-ABPSetup -Name YourValue -CustomAttribute CustomAttribute1 -CustomAttributeValue YourValue`
+7. Run Import-Module -Name NewABPSetup
+8. Run `New-ABPSetup -Name YourValue -CustomAttribute CustomAttribute1 -CustomAttributeValue YourValue`
+
+NOTE: If you do not want to set this up as a module you can copy the raw contents of the New-ABPSetup function and paste it directly in to your current PowerShell session.
 
 <b><span style="color:red">NOTE:</b></span> The CustomAttribute parameter is a list that you can select from with the Tab key. This allows for you to match which custom attribute has been stamped on your Exchange objects.
 
