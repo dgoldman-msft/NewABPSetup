@@ -39,7 +39,7 @@ function New-ABPSetup {
         $Name,
 
         [parameter(Mandatory = $true, Position = 1)]
-        [ValidateSet('CustomAttribute1', 'CustomAttribute2', 'CustomAttribute3', 'CustomAttribute4', 'CustomAttribute5', 'CustomAttribute5', 'CustomAttribute6', 'CustomAttribute7', 'CustomAttribute8', 'CustomAttribute9', 'CustomAttribute10', 'CustomAttribute11', 'CustomAttribute12', 'CustomAttribute13', 'CustomAttribute14', 'ExtensionCustomAttribute1', 'ExtensionCustomAttribute2', 'ExtensionCustomAttribute3', 'ExtensionCustomAttribute4', 'ExtensionCustomAttribute5')]
+        [ValidateSet('CustomAttribute1', 'CustomAttribute2', 'CustomAttribute3', 'CustomAttribute4', 'CustomAttribute5', 'CustomAttribute5', 'CustomAttribute6', 'CustomAttribute7', 'CustomAttribute8', 'CustomAttribute9', 'CustomAttribute10', 'CustomAttribute11', 'CustomAttribute12', 'CustomAttribute13', 'CustomAttribute14', 'CustomAttribute15', 'ExtensionCustomAttribute1', 'ExtensionCustomAttribute2', 'ExtensionCustomAttribute3', 'ExtensionCustomAttribute4', 'ExtensionCustomAttribute5')]
         [string]
         $CustomAttribute,
 
